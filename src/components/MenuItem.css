@@ -1,0 +1,42 @@
+.menu-item-container {
+  padding: 2rem 1rem;
+  flex-basis: 50%;
+}
+
+.menu-item:hover {
+  background-color: grey;
+}
+
+.menu-img {
+  min-width: 10rem;
+  min-height: 10rem;
+}
+
+.menu-item-details {
+  padding: 1em;
+}
+
+.item-name {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 767px) {
+  .menu-item-container {
+    padding: 0;
+    margin-right: 1.5em;
+  }
+
+  .menu-item-details {
+    padding: 0;
+    text-align: center;
+    align-items: center;
+  }
+
+  .menu-item-details p {
+    font-size: 1rem;
+  }
+
+  .menu-item:hover {
+    background-color: transparent;
+  }
+}

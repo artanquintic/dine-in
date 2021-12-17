@@ -1,0 +1,34 @@
+.menu-list-container {
+  margin: 0em 1.5rem 1em;
+  max-width: 48rem;
+  justify-content: space-between;
+  transition: all 0.3s;
+}
+
+.menu-title {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  transition: all 0.3s;
+}
+
+.see-all {
+  color: #edac2c;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .menu-list-container {
+    background-color: #262626;
+    margin: 1em 0em;
+    padding: 1em 2em;
+    flex-direction: row;
+    transition: all 0.5s;
+  }
+
+  .menu-title {
+    font-size: 2rem;
+    letter-spacing: 0rem;
+    transition: all 0.3s;
+  }
+}

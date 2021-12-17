@@ -1,0 +1,60 @@
+.hero-container {
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(33, 33, 33, 0.44) 0%,
+      rgba(33, 33, 33, 0) 51.04%,
+      rgba(33, 33, 33, 0.62) 100%
+    ),
+    url("../images/YSP_ThePalace_02.png") center center/cover no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 3rem;
+  max-width: 30rem;
+  background-color: #212121;
+  padding: 2rem 4rem;
+  transition: all 0.5s;
+}
+
+.hero-content > h1 {
+  font-size: 3rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.05rem;
+}
+
+.hero-content > h2 {
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+  .hero-container {
+    background: linear-gradient(
+        180deg,
+        rgba(33, 33, 33, 0.38) 0%,
+        rgba(33, 33, 33, 0.02) 34.49%,
+        #212121 100%
+      ),
+      url("../images/YSP_ThePalace_02.png") center center/cover no-repeat;
+  }
+
+  .hero-content {
+    background-color: transparent;
+    bottom: 0;
+    padding: 1rem 2.5rem;
+  }
+
+  .hero-content > h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+}

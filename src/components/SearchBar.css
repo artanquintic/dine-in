@@ -1,0 +1,26 @@
+.search-container {
+  position: relative;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1.5rem;
+  color: #edac2c;
+}
+
+.search-input {
+  height: 2.5rem;
+  width: 20rem;
+  padding-left: 4rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 767px) {
+  .search-input {
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 30px;
+  }
+}

@@ -1,0 +1,46 @@
+.navbar {
+  height: 6rem;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  transition: background-color 0.3s;
+}
+
+.bg-change {
+  background-color: #fff;
+  box-shadow: 0 4px 4px -2px rgb(18, 18, 18, 0.2);
+}
+
+.bg-change .nav-item,
+.bg-change .nav-logo {
+  color: #121212;
+}
+
+.nav-logo {
+  font-size: 2.5rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.05rem;
+}
+
+.nav-item {
+  padding: 0 1rem;
+  letter-spacing: 0.05rem;
+  border-bottom: transparent 2px;
+}
+
+.nav-item:hover {
+  border-bottom: solid 2px;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    height: 4rem;
+  }
+  .nav-logo {
+    font-size: 2rem;
+  }
+}
